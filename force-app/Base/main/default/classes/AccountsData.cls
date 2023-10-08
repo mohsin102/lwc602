@@ -3,7 +3,7 @@ public without sharing class AccountsData {
 	public static Map<String, Account> loadTheData () {
 	
 		// Get the record type IDs for the Account sObject
-		RecordType recType = [SELECT Id, Name FROM RecordType WHERE Name='Service Vendor'];
+		RecordType recType = [SELECT Id, Name FROM RecordType WHERE Name='Service Vendor  11'];
 		Id serviceVendorId = rectype.Id;
 		
 		recType = [SELECT Id, Name FROM RecordType WHERE Name='Customer'];
