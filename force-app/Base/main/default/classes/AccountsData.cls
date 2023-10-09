@@ -1,7 +1,7 @@
 public without sharing class AccountsData {
 
 	public static Map<String, Account> loadTheData () {
-	
+	// add this comment
 		// Get the record type IDs for the Account sObject
 		RecordType recType = [SELECT Id, Name FROM RecordType WHERE Name='Service Vendor  11'];
 		Id serviceVendorId = rectype.Id;
